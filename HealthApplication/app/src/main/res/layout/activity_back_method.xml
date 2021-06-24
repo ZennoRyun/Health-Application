@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back1"
+                android:layout_width="wrap_content"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/pulldown" />
+
+            <Button
+                android:id="@+id/backbutton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:text="랫 풀 다운"
+                app:backgroundTint="#46ADBA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back2"
+                android:layout_width="wrap_content"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/cable_row" />
+
+            <Button
+                android:id="@+id/backbutton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:text="시티드 로우"
+                app:backgroundTint="#46ADBA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back3"
+                android:layout_width="wrap_content"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dumbell_onearm"/>
+
+            <Button
+                android:id="@+id/backbutton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:text="덤벨 원암로우"
+                app:backgroundTint="#46ADBA" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back4"
+                android:layout_width="wrap_content"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/barbell_row" />
+
+            <Button
+                android:id="@+id/backbutton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:text="바벨 로우"
+                app:backgroundTint="#46ADBA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/back5"
+                android:layout_width="wrap_content"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/dead_lift" />
+
+            <Button
+                android:id="@+id/backbutton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:text="데드 리프트"
+                app:backgroundTint="#46ADBA" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
